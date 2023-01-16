@@ -1,0 +1,161 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+/* Ticker */
+
+.ticker{
+    background-color: black;
+    color: white;
+    padding-bottom:5px;
+    text-align: center;
+}
+
+
+.arrow-image{
+    padding: 0% 0% 0% 10px;
+}
+
+.ticker-text{
+    padding-top: 10px;
+}
+
+
+
+
+
+/* Nav Bar Controls */
+
+.container-fluid {
+    padding: 3% 18%;
+}
+
+.nav-bar{
+    color: white;
+    text-align: center;
+}
+
+.navbar-brand{
+    padding-left: 15px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.navbar-toggler{
+    margin-right: 10%;
+}
+
+
+.nav-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:#ff0000;
+    transition: 0.2s;
+    margin-top:-10px;
+}
+
+.nav-item:hover::after{width:100%;}
+
+
+.nav-link{padding:15px 5px;transition:0.2s;}
+
+.navbar-nav .nav-link {
+    
+    color:#000;
+    font-size:18px;
+}
+
+.navbar-nav .active > .nav-link{
+  
+    width:100%;
+    height:51px;
+    
+  border-bottom: .25rem solid transparent;
+  border-bottom-color: #ed4137;
+   
+}
+
+
+
+/* Shoe Info */
+
+.shoes{
+    font-weight: bold;
+    text-align: right;
+}
+
+.price{
+    text-align: right;
+}
+
+.star-rating{
+    text-align: right;
+}
+
+.womens-originals{
+    padding: 6.5%;
+    text-align: right;
+}
+
+.shoe-color{
+    text-align: right;
+}
+
+
+
+
+/* Carousel */
+.sneaker-carousel{
+    margin: 5% auto;
+    
+}
+
+#carouselExample{
+    text-align: center;
+}
+
+
+.carousel-control-prev-icon {
+    fill: black;
+    color: black;
+}
+
+
+
+
+
+@media (max-width: 525px) {
+
+    .shoes {
+        text-align: center;
+    }
+
+    .price {
+        text-align: center;
+    }
+    
+    .star-rating {
+        text-align: center;
+    }
+
+    .womens-originals {
+        text-align: center;
+    }
+
+    .shoe-color {
+        text-align: center;
+    }
+}
